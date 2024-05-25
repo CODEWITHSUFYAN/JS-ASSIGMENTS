@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS assigment 5</title>
+    <link rel="shortcut icon" href="img/Javascript icon.svg" type="image/x-icon">
+    <style>
+        body{
+            background-color: black;
+        }
+        .main{
+            margin-top: 95px;
+        
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        h1{
+           text-align: center;
+           color: brown;
+           font-size: 40px;
+        }
+        button{
+            width: 12rem;
+            height: 3rem;
+            border-radius: 100px;
+            outline: none;
+            border: none;
+            background-color:rgb(253, 123, 36);
+            color: white;
+            font-weight: 600;
+            font-family: 'poppins', sans-serif;
+            cursor: pointer;
+            
+        }
+        button:hover{
+            background-color:rgb(66, 248, 127);
+            transition: 1s ease;
+        
+        }
+        button a{
+            text-decoration: none;
+            color: aliceblue;
+
+        }
+    </style>
+</head>
+<body>
+      <div class="main">
+        <button><a href="index.html">ASSIGMENT 1</a></button><br><br>
+        <button><a href="assigment 2.html">ASSIGMENT 2</a></button><br><br>
+        <button><a href="assigment 3.html">ASSIGMENT 3</a></button><br><br>
+        <button><a href="assigment4.html">ASSIGMENT 4</a></button><br><br>
+        <button><a href="assigment 5.html">ASSIGMENT 5</a></button>
+
+      </div>
+
+        <script>
+                let city = prompt("Enter Your City like Karachi");
+                if (city == "karachi") {
+                  alert("Welcome To city of lights");
+                } else {
+                  alert("ERROR");
+                }
+          
+                let Gender = prompt("Enter Your Gender");
+                if (Gender == "male") {
+                  alert("Hello Sir");
+                } else if ((Gender = "female")) {
+                  alert("Hello Madam");
+                }
+          
+                let num = prompt("50 + 20 kitne hote hyn");
+                if (num == "70") {
+                  alert("Correct");
+                } else {
+                  alert("Wrong");
+                }
+          
+                let num2 = prompt("25 + 70 kitne hote hyn");
+                if (num2 == "95") {
+                  alert("Correct");
+                } else {
+                  alert("Wrong");
+                }
+          
+                
+        </script>
+</body>
+</html>
